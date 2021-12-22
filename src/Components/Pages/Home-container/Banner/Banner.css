@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap");
+.banner-container {
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.banner-container img {
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.bannerImg img{
+    transform: scale(1);
+	transition: 1s ease-in-out;
+}
+
+.bannerImg img:hover{
+	transform: scale(1.5);
+}
+
+.banner-descrition {
+    margin-top: 25%;
+    margin-left: -200px;
+}
+.banner-descrition h1,
+h2,
+h3 {
+    color: rgb(218, 210, 210);
+}
+
+.fab {
+    font-size: 2.5em;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.884);
+}
+.btn {
+    color: #ffffff;
+    background: #471f75ef;
+    text-shadow: 0 0 10px #ffffff;
+    font-size: 17px;
+    border-radius: 13px;
+}
+.btn:hover {
+    border: 2px solid rgb(44, 38, 38);
+    background: #5f165f;
+    color: #ffffff;
+}
+
+/* Responsiveness for Mobile Devices */
+@media only screen and (max-width: 420px) {
+    .banner-descrition {
+        margin-top: 30%;
+    }
+    .banner-descrition h1 {
+        font-size: 0.5em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .banner-descrition {
+        margin-top: 30%;
+    }
+    .banner-descrition h1 {
+        font-size: 1.5em;
+    }
+}
