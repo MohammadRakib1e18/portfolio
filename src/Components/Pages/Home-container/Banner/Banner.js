@@ -8,7 +8,7 @@ const Banner = () => {
             <div className="bannerImg">
                 <img src={developer} alt="" />
             </div>
-            <div className="w-40 banner-descrition text-center">
+            <div className="banner-descrition text-center">
                 <div>
                     <a
                         rel="noreferrer"
@@ -19,7 +19,7 @@ const Banner = () => {
                     </a>
                     <a
                         rel="noreferrer"
-                        href="https://github.com/MohammadRakib1e18?tab=repositories"
+                        href="https://github.com/MohammadRakib1e18"
                         target="_blank"
                     >
                         <i class="fab fa-github-square"></i>
@@ -41,7 +41,7 @@ const Banner = () => {
                 <div>
                     <a
                         rel="noreferrer"
-                        href="https://drive.google.com/file/d/1MkN5Vb5se9gJ3qPLg9pPTaWHxeEu80v_/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1-oH_Aoj9mhYjQz42aoxXK5P1CwSXRJ3g/view?usp=sharing"
                         target="_blank"
                     >
                         <button

@@ -3,27 +3,27 @@
     background-color: rgb(0, 0, 0);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 50px;
+    padding:0 60px 50px 60px;
     overflow: hidden;
 }
-.banner-container img {
+
+.bannerImg img {
     width: 50%;
     margin-top: 40px;
-    margin-left: 60px;
-    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
-.bannerImg img{
+.bannerImg img {
     transform: scale(1);
-	transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
-.bannerImg img:hover{
-	transform: scale(1.5);
+.bannerImg img:hover {
+    transform: scale(1.5);
 }
 
 .banner-descrition {
     margin-top: 25%;
-    margin-left: -200px;
 }
 .banner-descrition h1,
 h2,
@@ -36,11 +36,15 @@ h3 {
     margin-left: 10px;
     color: rgba(255, 255, 255, 0.884);
 }
+.fab:hover{
+    color:rgb(172, 197, 245);
+    box-shadow: 2px 2px 20px rgb(107, 121, 247);
+}
 .btn {
     color: #ffffff;
     background: #471f75ef;
     text-shadow: 0 0 10px #ffffff;
-    font-size: 17px;
+    font-size: 1.5vw;
     border-radius: 13px;
 }
 .btn:hover {
@@ -52,15 +56,15 @@ h3 {
 /* Responsiveness for Mobile Devices */
 @media only screen and (max-width: 420px) {
     .banner-descrition {
-        margin-top: 30%;
+        /* margin-top: 30%; */
     }
     .banner-descrition h1 {
         font-size: 0.5em;
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 421px) and (max-width: 768px) {
     .banner-descrition {
-        margin-top: 30%;
+        /* margin-top: 30%; */
     }
     .banner-descrition h1 {
         font-size: 1.5em;
